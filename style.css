@@ -1,0 +1,121 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    background-color: #000;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 0;
+    width: 960px;
+}
+
+header div nav a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    margin: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav {
+    text-align: right;
+    background-color: rgb(170, 139, 70);
+    padding: 20px 80px 20px 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 0;
+}
+
+header img {
+    width: 200px;
+}
+
+header h1 {
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 160px;
+}
+
+.about {
+    text-align: center;
+    width: 640px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+main section:first-child h2{
+    text-align: justify;
+}
+
+main section:first-child p{
+    text-align: justify;
+}
+
+main section:first-child a {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    /* text-align: center; */
+    padding: 10px 40px;
+    /* margin-top: 40px; */
+}
+
+.tables {
+    background-color: blue;
+    color: white;
+    width: 640px;
+    padding: 20px 160px 10px 160px;
+    margin-top: 20px;
+}
+
+table,
+th,
+td{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+.contacts {
+    text-align: center;
+    width: 640px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+main section:nth-child(3) h2, ul{
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(170, 139, 70);
+    margin: 20px;
+    padding: 20px;
+    width: 900px;
+    color: #fff;
+}
